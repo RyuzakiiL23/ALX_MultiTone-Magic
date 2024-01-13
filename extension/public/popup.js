@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Remove the current saved theme from local storage
     function resetTheme() {
-        const themeColors = ['grey', 'light-green', 'midnight-blue', 'black', 'teal', 'dark-blue', 'purple', 'pink', 'light-blue', 'yellow', 'white', 'beige'];
+        const themeColors = ['grey', 'light-green', 'midnight-blue', 'black', 'teal', 'dark-blue', 'purple', 'pink', 'light-blue', 'yellow', 'white', 'beige', 'mocha'];
         themeColors.forEach(function (color) {
             document.body.classList.remove(`theme-${color}`);
         });

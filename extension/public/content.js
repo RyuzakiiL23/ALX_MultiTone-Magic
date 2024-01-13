@@ -25,7 +25,7 @@ function updateExtensionState(isEnabled) {
     if (!isEnabled) {
         // Clear any applied theme when the extension is disabled
         document.body.classList.remove('defaultTheme', 'theme-red', 'theme-green', 'theme-navy-blue','theme-black','theme-teal',
-        'theme-ocean','theme-purple','theme-pink','theme-orange', 'theme-yellow','theme-grey');
+        'theme-ocean','theme-purple','theme-pink','theme-orange', 'theme-yellow','theme-grey', 'theme-mocha');
     }
 }
 
